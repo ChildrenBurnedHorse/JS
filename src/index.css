@@ -1,0 +1,1223 @@
+BODY{
+  
+}
+.main_containar{
+}
+
+@media(max-width:1920px){.main_containar{max-width: 1200px;}}
+@media(max-width:1200px){.main_containar{max-width: 970px;}}
+@media(max-width:992px){.main_containar{ max-width: 750px;}}
+@media(max-width:768px){.main_containar{ max-width: 550px;}}
+@media(max-width:568px){.main_containar{ max-width: 477px;}}
+
+.Head {
+  width: 1880px;
+  height: 300px;
+  background: url(../src/img/bgimg.png) no-repeat;
+  position: relative;
+  border: solid #012840 4px;
+  position: absolute;
+
+}
+
+ .HeadText1,.HeadText2  {
+  position: relative;
+  width: 1000px;
+  height: 112px;
+  top: 24px;
+  left: 30px;
+  font-family: Tenor Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  top: -25px;
+  line-height: 112px;
+  color: #102b3b;
+  display: -moz-inline block;
+  
+}
+.HeadText2 {
+  position: relative;
+  width: 1151px;
+  height: 105px;
+  top: -65px;
+  font-size: 90px;
+  line-height: 105, 3px;
+  background: linear-gradient(to right, #102b3b 40%, #dbe5ec 40%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+} 
+.СompressionLiquidJet{
+  width: 1400px;
+  height: 650px;
+  left: 230px;
+  top: 400px;
+  background: #c8d1d6;
+  position: absolute;
+}
+.CostSpeed{
+  width: 1400px;
+  height: 650px;
+  left: 230px;
+  top: 1200px;
+  background: #c8d1d6;
+  position: absolute;
+}
+.CostFactor{
+  width: 1400px;
+  height: 650px;
+  left: 230px;
+  top: 2000px;
+  background: #c8d1d6;
+  position: absolute;
+}
+.CrossSectionalArea{
+  width: 1400px;
+  height: 650px;
+  left: 230px;
+  top: 2800px;
+  background: #c8d1d6;
+  position: absolute;
+}
+.FluidFlowRate{
+  width: 1400px;
+  height: 650px;
+  left: 230px;
+  top: 3600px;
+  background: #c8d1d6;
+  position: absolute;
+}
+.RequiredPressure{
+  width: 1400px;
+  height: 650px;
+  left: 230px;
+  top: 4400px;
+  background: #c8d1d6;
+  position: absolute;
+}
+.CriticalPressure{
+  width: 1400px;
+  height: 650px;
+  left: 230px;
+  top: 5200px;
+  background: #c8d1d6;
+  position: absolute;
+}
+ .PowerTurbin {
+  width: 1400px;
+  height: 650px;
+  left: 230px;
+  top: 6800px;
+  background: #c8d1d6;
+  position: absolute;
+}
+.ElectricPowerGenerator
+{
+  width: 1400px;
+  height: 650px;
+  left: 230px;
+  top: 6000px;
+  background: #c8d1d6;
+  position: absolute;
+}
+
+.PropellerTurbineSpeed{
+  width: 1400px;
+  height: 650px;
+  left: 230px;
+  top: 7600px;
+  background: #c8d1d6;
+  position: absolute;
+}
+.TurbineSpeed{
+  width: 1400px;
+  height: 650px;
+  left: 230px;
+  top: 8400px;
+  background: #c8d1d6;
+  position: absolute;
+}
+.ReductionReducer{
+  width: 1400px;
+  height: 650px;
+  left: 230px;
+  top: 9200px;
+  background: #c8d1d6;
+  position: absolute;
+}
+.PowerTurbin:hover,
+.ElectricPowerGenerator:hover,
+.СompressionLiquidJet:hover,
+.CostSpeed:hover,
+.CostFactor:hover,
+.CrossSectionalArea:hover,
+.FluidFlowRate:hover,
+.RequiredPressure:hover,
+.CriticalPressure:hover,
+.PropellerTurbineSpeed:hover,
+.TurbineSpeed:hover,
+.ReductionReducer:hover{
+  outline: solid #012840 4px;
+  outline-offset: -4px;
+}
+.FormulaHeader,
+.FormulaText,
+.FormulaVariables,
+.FormulaResultHeader,
+.FormulaResultHeaderElectricPowerGenerator,
+.FormulaVariablesCompressionLiquidJet,
+.FormulaResultHeaderCompressionLiquidJet,
+.FormulaVariablesCostSpeed,
+.FormulaResultHeaderCostSpeed,
+.FormulaVariablesCrossSectionalArea,
+.FormulaVariablesFormulaFluidFlowRate,
+.FormulaResultHeaderFormulaFluidFlowRate,
+.FormulaVariablesCriticalPressure,
+.FormulaVariablesRequiredPressure,
+.FormulaResultHeaderCriticalPressure{
+  position: absolute;
+  width: 1400px;
+  height: 87px;
+  top: -110px;
+  font-family: Symbol;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 55px;
+  color: #012840;
+}
+
+
+.FormulaText{
+  position: absolute;
+  font-size: 40px;
+  width: 150px;
+  height: 87px;
+  left: 100px;
+  top: 10px;
+}
+.Formula,
+.FormulaElectricPowerGenerator,
+.FormulaCompressionLiquidJet,
+.FormulaCostSpeed,
+.FormulaCrossSectionalArea,
+.FormulaFluidFlowRate,
+.FormulaCriticalPressure,
+.FormulaPropellerTurbineSpeed{
+position: absolute;
+width: 400px;
+height: 87px;
+left: 100px;
+top: 110px;
+font-style:italic;
+font-weight: normal;
+font-size: 40px;
+color: #012840;
+}
+
+.FormulaElectricPowerGenerator{
+  width: 1000px;
+}
+.FormulaCompressionLiquidJet{
+  top:130px;
+}
+.FormulaCostSpeed,.FormulaCrossSectionalArea{
+  top:140px;
+}
+.FormulaFluidFlowRate{
+  top:150px;
+}
+.FormulaCriticalPressure{
+  width: 500px;
+  top:140px;
+}
+.FormulaPropellerTurbineSpeed{
+  top:120px;
+}
+.FormulaVariables,
+.FormulaVariablesCostSpeed,
+.FormulaVariablesCompressionLiquidJet,
+.FormulaVariablesCrossSectionalArea,
+.FormulaVariablesFormulaFluidFlowRate,
+.FormulaVariablesCriticalPressure,
+.FormulaVariablesRequiredPressure{
+  position: absolute;
+  font-size: 40px;
+  width: 150px;
+  height: 87px;
+  left: 100px;
+  top: 150px;
+}
+.FormulaVariablesCompressionLiquidJet,.FormulaVariablesCriticalPressure{
+  top: 185px;
+}
+.FormulaVariablesCostSpeed,.FormulaVariablesCrossSectionalArea{
+  top: 200px;
+}
+.FormulaVariablesFormulaFluidFlowRate{
+  top:225px;
+}
+.FormulaVariablesRequiredPressure{
+  top:220px;
+}
+.FormulaResultHeader,
+.FormulaResultHeaderElectricPowerGenerator,
+.FormulaResultHeaderCompressionLiquidJet,
+.FormulaResultHeaderCostSpeed,
+.FormulaResultHeaderFormulaFluidFlowRate,
+.FormulaResultHeaderCriticalPressure{
+  position: absolute;
+  font-size: 40px;
+  width: 300px;
+  height: 87px;
+  left: 100px;
+  top: 290px;
+}
+.FormulaResultHeaderElectricPowerGenerator{
+  top: 400px;
+}
+.FormulaResultHeaderCompressionLiquidJet{
+  top: 350px;
+}
+.FormulaResultHeaderCostSpeed{
+  top: 350px;
+}
+.FormulaResultHeaderFormulaFluidFlowRate{
+  top: 370px;
+}
+.FormulaResultHeaderCriticalPressure{
+  top: 340px;
+}
+.FormulaResult,
+.FormulaResultElectricPowerGenerator,
+.FormulaResultCompressionLiquidJet,
+.FormulaResultCostSpeed,
+.FormulaResultCostFactor,
+.FormulaResultFormulaFluidFlowRate{
+  background-color: #c8d1d6;
+  outline: none;
+  border: none;
+  border-bottom: solid #012840 2px;
+  display: inline-block;
+  position: absolute;
+  width: 230px;
+  height: 60px;
+  left: 100px;
+  top: 410px;
+  font-size: 35px;
+  color: #012840;
+  text-align: center;
+}
+.FormulaResultElectricPowerGenerator{
+  top: 475px;
+}
+.FormulaResultCompressionLiquidJet,.FormulaResultFormulaFluidFlowRate{
+  top: 450px;
+}
+.FormulaResultCostSpeed{
+  top: 430px;
+}
+
+.CalculateFormula,
+.CalculateFormulaElectricPowerGenerator,
+.CalculateFormulaCompressionLiquidJet,
+.CalculateFormulaCostSpeed,
+.CalculateFormulaCostFactor,
+.CalculateFormulaFluidFlowRate{
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  left: 144px;
+  top: 520px;
+  text-align: center;
+  font-size: 22px;
+  transition-duration: 0.4s;
+  background-color: #c8d1d6;
+  border: solid #012840 2px;
+}
+.CalculateFormulaElectricPowerGenerator{
+  top: 570px;
+}
+.CalculateFormulaCompressionLiquidJet{
+  top: 550px;
+  left:112px;
+}
+.CalculateFormulaFluidFlowRate{
+  top: 550px;
+  left:145px;
+}
+.CalculateFormulaElectricPowerGenerator:hover,
+.CalculateFormulaCompressionLiquidJet:hover,
+.CalculateFormula:hover,
+.CalculateFormulaCostSpeed:hover,
+.CalculateFormulaCostSpeed:hover,
+.CalculateFormulaCostFactor:hover,
+.CalculateFormulaFluidFlowRate:hover{
+  background-color: #012840;
+  color: #c8d1d6;
+}
+
+.rho,
+.g,
+.Q,
+.H,
+.ηT,
+.DoingNap,
+.hg,
+.hj,
+.et,
+.eg,
+.ft,
+.fj,
+.Sc,
+.S,
+.CTC,
+.alpha,
+.epsilon,
+.FH,
+.pi,
+.Diametr,
+.Q1,
+.epsilon1,
+.pi1,
+.Diametr1,
+.UH,
+.SDO,
+.g1,
+.D1,
+.V,
+.g2,
+.Z,
+.rho1,
+.g3,
+.DoingNap2,
+.PT1,
+.ω,
+.pi2,
+.ƒ{
+  font-style:normal;
+  font-weight: normal;
+  font-size: 40px;
+  color: #012840;
+  background-color: #c8d1d6;
+  position: absolute;
+  width: 210px;
+  height: 50px;
+  left: 100px;
+  top: 235px;
+}
+.g{
+  left:350px;
+}
+.Q{
+  left:580px;
+  top: 242px;
+}
+.H,.DoingNap{
+  left:800px;
+  top: 242px;
+}
+.ηT,.hg{
+  left:1030px;
+  top: 242px;
+}
+.hj{
+  top: 335px;
+}
+.et{
+  left:350px;
+  top:335px;
+}
+.eg{
+  left:580px;
+  top:335px;
+}
+.ft{
+  top:335px;
+  left:800px;
+}
+.fj{
+  top:335px;
+  left:1030px;
+}
+.Sc{
+  top: 270px;
+}
+.S{
+  top: 270px;
+  left:350px;
+}
+.alpha{
+  top: 290px;
+}
+
+.CTC{
+  top: 290px;
+  left:350px;
+}
+.FH{
+  left:350px;
+}
+.Diametr{
+  left:350px;
+}
+.Q1{
+  top: 320px;
+}
+.epsilon1{
+  left:350px;
+  top: 320px;
+}
+.pi1{
+  top: 320px;
+  left:580px;
+}
+.Diametr1{
+  left:800px;
+  top: 313px;
+}
+.UH{
+  left:350px;
+  top: 320px;
+}
+.SDO{
+  top: 320px;
+  left:580px;
+}
+.g1{
+  left:800px;
+  top: 313px;
+}
+.D1{
+  top: 290px;
+}
+.V{
+  top: 290px;
+  left:310px;
+}
+.g2{
+  top: 280px;
+  left:500px;
+}
+.rho1{
+  top: 230px;
+  left: 260px;
+}
+.g3{
+  top: 230px;
+  left: 540px;
+}
+.DoingNap2{
+  top: 235px;
+  left: 780px;
+}
+.PT1{
+  left: 980px;
+}
+.ω{
+  top: 290px;
+}
+.pi2{
+  top: 290px;
+  left: 340px;
+}
+.ƒ{
+  top: 290px;
+}
+.rhotext,
+.gtext,
+.Qtext,
+.Htext,
+.ηTtext,
+.Htext1,
+.hgtext,
+.hjtext,
+.ettext,
+.egtext,
+.fttext,
+.fjtext,
+.Sctext,
+.Stext,
+.alphatext,
+.CTCtext,
+.epsilontext,
+.FHtext,
+.pitext,
+.Diametrtext,
+.Q1text,
+.epsilon1text,
+.pi1text,
+.Diametr1text,
+.UHtext,
+.SDOtext,
+.g1text,
+.D1text,
+.Vtext,
+.g2text,
+.Ztext,
+.rho1text,
+.g3text,
+.DoingNap2text,
+.PT1text,
+.ωtext,
+.pi2text,
+.ƒtext
+{
+  font-size: 30px;
+  background-color: #012840;
+  color: #c8d1d6;
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+  opacity: 0;
+  width: 180px;
+  height: 40px;
+  left: 100px;
+  top: 200px;
+}
+.gtext{
+  left:350px;
+  width: 400px;
+}
+.Qtext{
+  left:580px;
+}
+.Htext,.Htext1{
+  left:800px;
+  width: 210px;
+}
+.ηTtext{
+  left:1030px;
+  width: 310px;
+}
+.hgtext{
+  left:1030px;
+  width: 270px;
+}
+.hjtext{
+  top: 300px;
+}
+.ettext{
+  left:350px;
+  width: 810px;
+  top: 300px;
+}
+.egtext{
+  left:580px;
+  width: 350px;
+  top: 300px;
+}
+.fttext{
+  width: 350px;
+  top: 300px;
+  left:800px;
+}
+.fjtext{
+  top: 300px;
+  width: 350px;
+  left:1030px;
+}
+.Sctext{
+  top: 220px;
+  width: 400px;
+}
+.Stext{
+  top: 220px;
+  width: 350px;
+  left:350px;
+}
+.alphatext{
+  top: 226px;
+  width: 900px;
+}
+.CTCtext{
+  top: 226px;
+  width: 500px;
+  left:350px;
+}
+.epsilontext{
+  width: 550px;
+}
+.FHtext{
+  left:350px;
+  width: 300px;
+}
+.pitext{
+  width: 210px;
+  left:580px;
+}
+.Diametrtext{
+  width: 210px;
+  left:350px;
+  
+}
+.Q1text{
+  top:280px;
+}
+.epsilon1text{
+  top:280px;
+  left:350px;
+  width: 550px;
+}
+.pi1text{
+  width: 210px;
+  left:580px;
+  top:280px;
+}
+.Diametr1text{
+  top:280px;
+  width: 210px;
+  left:800px;
+}
+.UHtext{
+  top:280px;
+  left:350px;
+  width:260px;
+}
+.SDOtext{
+  width: 600px;
+  left:580px;
+  top:280px;
+}
+.g1text{
+  top:280px;
+  width: 400px;
+  left:800px;
+}
+.D1text{
+  top: 250px;
+  width: 210px;
+}
+.Vtext{
+  top: 250px;
+  width: 400px;
+  left:310px;
+}
+.g2text{
+  top: 250px;
+  width: 400px;
+  left:500px;
+}
+.Ztext{
+  width: 500px;
+}
+.rho1text{
+  left: 260px;
+}
+.g3text{
+  left: 540px;
+  width: 400px;
+}
+.DoingNap2text{
+  left: 780px;
+  width: 210px;
+}
+.PT1text{
+  left: 780px;
+  width: 600px;
+}
+.ωtext{
+  top: 250px;
+  width: 570px;
+}
+.pi2text{
+  width: 210px;
+  left: 340px;
+  top:250px;
+}
+.ƒtext{
+  top: 250px;
+  width: 400px;
+}
+.rho:hover ~ .rhotext,
+.g:hover ~ .gtext,
+.Q:hover ~ .Qtext,
+.H:hover ~ .Htext,
+.ηT:hover ~ .ηTtext,
+.DoingNap:hover ~ .Htext1,
+.hg:hover ~ .hgtext,
+.hj:hover ~ .hjtext,
+.et:hover ~.ettext,
+.eg:hover ~.egtext,
+.ft:hover ~.fttext,
+.fj:hover ~.fjtext,
+.Sc:hover ~.Sctext,
+.S:hover ~.Stext,
+.alpha:hover ~.alphatext,
+.CTC:hover ~.CTCtext,
+.epsilon:hover ~.epsilontext,
+.FH:hover ~.FHtext,
+.pi:hover ~.pitext,
+.Diametr:hover ~.Diametrtext,
+.Q1:hover ~.Q1text,
+.epsilon1:hover ~.epsilon1text,
+.pi1:hover ~.pi1text,
+.Diametr1:hover ~.Diametr1text,
+.UH:hover ~.UHtext,
+.SDO:hover ~.SDOtext,
+.g1:hover ~.g1text,
+.D1:hover ~.D1text,
+.V:hover ~.Vtext,
+.g2:hover ~.g2text,
+.Z:hover ~.Ztext,
+.rho1:hover ~.rho1text,
+.g3:hover ~.g3text,
+.DoingNap2:hover ~.DoingNap2text,
+.PT1:hover ~.PT1text,
+.ω:hover ~.ωtext,
+.pi2:hover ~.pi2text,
+.ƒ:hover ~.ƒtext{
+  opacity: 1;
+}
+
+.rhoinput,
+.ginput,
+.Qinput,
+.Hinput,
+.ηTinput,
+.rhoinput1,
+.ginput1,
+.hginput,
+.hjinput,
+.etinput,
+.eginput,
+.ftinput,
+.fjinput,
+.Scinput,
+.Sinput,
+.alphainput,
+.CTCinput,
+.epsiloninput,
+.FHinput,
+.piinput,
+.Diametrinput,
+.Q1input,
+.epsilon1input,
+.pi1input,
+.Diametr1input,
+.UHinput,
+.SDOinput,
+.g1input,
+.D1input,
+.Vinput,
+.g2input,
+.Zinput,
+.rho1input,
+.g3input,
+.DoingNap2input,
+.PT1input,
+.ωinput,
+.pi2input,
+.ƒinput
+{
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  color: #012840;
+  position: absolute;
+  width: 75px;
+  height: 25px;
+  left: 380px;
+  top: 255px;
+  z-index: 1;
+}
+.ginput1{
+  position: relative;
+  left: 380px;
+}
+.rhoinput1{
+  left: 130px;
+}
+.rhoinput{
+  left: 130px;
+}
+.Qinput{
+  left:618px;
+}
+.Hinput{
+  left:838px;
+  top: 253px;
+}
+.ηTinput,.hginput{
+  left: 1085px;
+}
+.hjinput{
+top:345px;
+left: 138px;
+}
+.etinput{
+  left: 383px;
+  top:345px;
+}
+.eginput{
+  top:345px;
+  left:618px;
+}
+.ftinput{
+  top:345px;
+  left:838px;
+}
+.fjinput{
+  top:345px;
+  left: 1085px;
+}
+.Scinput{
+  left: 143px;
+  top:285px;
+}
+.Sinput{
+  top:285px;
+  left: 380px;
+}
+.alphainput{
+  left: 143px;
+  top:300px;
+}
+.CTCinput{
+  top:300px;
+  left: 420px;
+}
+.epsiloninput{
+  left: 130px;
+  top:243px;
+}
+.FHinput{
+  position: relative;
+  left: 405px;
+  top:243px;
+}
+.piinput{
+  left: 130px;
+  top:243px;
+}
+.Diametrinput{
+  top:243px;
+  left: 405px;
+}
+.Q1input{
+  top: 328px;;
+  left: 138px;
+}
+.epsilon1input{
+  top: 328px;
+}
+.pi1input{
+  top: 328px;
+  left:618px;
+}
+.Diametr1input{
+  top: 328px;
+  left:855px;
+}
+.UHinput{
+  top: 328px;
+  left: 405px;
+}
+.SDOinput{
+  top: 328px;
+  left:655px;
+}
+.g1input{
+  top: 328px;
+  left:833px;
+}
+.D1input{
+  top: 297px;
+  left: 138px;
+}
+.Vinput{
+  top: 297px;
+  left:350px;
+}
+.g2input{
+  top: 297px;
+  left:533px;
+}
+.Zinput{
+  left: 135px;
+  top: 243px;
+}
+.rho1input{
+  left: 288px;
+  top: 243px;
+}
+.g3input{
+  left: 568px;
+  top: 243px;
+}
+.DoingNap2input{
+  top: 243px;
+  left: 815px;
+}
+.PT1input{
+  left: 1028px;
+  top: 243px;
+}
+.ωinput{
+  left: 135px;
+  top: 300px;
+}
+.pi2input{
+  left: 380px;
+  top:300px;
+}
+.ƒinput{
+    left: 135px;
+  top: 300px;
+}
+.KKD{
+  position: absolute;
+  width: 260px;
+  height: 30px;
+  left: 900px;
+  top: 470px;
+  transform-origin: 75px 75px;
+  transform: rotate(-90deg);
+}
+
+.LabelTypeOfTurbins{
+  position: absolute;
+  width: 470px;
+  height: 33px;
+  top: 320px;
+  left: 910px;
+  font-family: Symbol;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 33px;
+  color: #012840;
+}
+.NameTypeOfTurbins{
+  position: absolute;
+  width: 370px;
+  height: 50px;
+  top: 365px;
+  left: 940px;
+  font-family: Symbol;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  color: #012840;
+}
+.TypeTurbinsImage{
+  border: solid #012840 2px;
+  height: 200px;
+  width: 210px;
+  position: absolute;
+  top: 410px;
+  left: 1050px;
+  background: white;
+  transition: 1s;
+}
+.TypeTurbinsCurrentImg{
+  transition: 3s;
+  height: 200px;
+  width: 210px;
+}
+
+.TypeTurbinsCurrentImg:hover {
+  transform: scale(1.2); 
+}
+.TypeTurbinsImage:hover{
+  transform: scale(1.5); 
+}
+.RecomendVariables,.RecomendVariablesCostSpeed,.RecomendVariablesPowerTurbin{
+  position: absolute;
+  width: 630px;
+  height: 50px;
+  top: 500px;
+  left: 450px;
+  font-family: Symbol;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  color: #012840;
+}
+.RecomendVariablesCostSpeed{
+  font-size: 30px;
+  width: 850px;
+}
+.RecomendVariablesPowerTurbin{
+  position: absolute;
+  width: 800px;
+  height: 50px;
+  top: 100px;
+  left: 550px;
+  font-size: 30px;
+  width: 850px;
+}
+
+.qwe{
+  transform: scale(1.8);
+  opacity: 0.9;
+  cursor: pointer;
+color:#012840 ;
+}
+.top {
+  border-bottom: solid #012840 2px;
+  display: inline-block;
+  position: absolute;
+  top: -30px;
+  left: 65px;
+}
+.bottom {
+  display: inline-block;
+  clear: left;
+  position: absolute;
+  top: 35px;
+  left: 70px;
+}
+.top1 {
+  border-top: solid #012840 3px;
+  display: inline-block;
+  position: absolute;
+  top: -20px;
+  left: 137px;
+}
+.bottom1 {
+  border-top: solid #012840 2px;
+  display: inline-block;
+  clear: left;
+  position: absolute;
+  top: 35px;
+  left: 153px;
+}
+.SQRT {
+  font-size: 110px;
+  color: #012840;
+  position: absolute;
+  left: 180px;
+  top: 121px;
+}
+.top2 {
+  display: inline-block;
+  position: absolute;
+  top: -20px;
+  left: 137px;
+}
+.bottom2 {
+  border-top: solid #012840 2px;
+  display: inline-block;
+  clear: left;
+  position: absolute;
+  top: 35px;
+  left: 115px;
+}
+.bottom3 {
+  border-top: solid #012840 2px;
+  display: inline-block;
+  clear: left;
+  position: absolute;
+  top: 20px;
+  left: 75px;
+}
+.top3 {
+  display: inline-block;
+  position: absolute;
+  top: -30px;
+  left: 100px;
+}
+.bottom4 {
+  border-top: solid #012840 2px;
+  display: inline-block;
+  clear: left;
+  position: absolute;
+  top: 23px;
+  left: 75px;
+}
+.top4{
+  display: inline-block;
+  position: absolute;
+  top: -37px;
+  left: 200px;
+}
+
+
+
+.top5{
+  border-bottom: solid #012840 3px;
+  display: inline-block;
+  position: absolute;
+  top: -30px;
+  left: 275px;
+}
+.bottom5 {
+  border-top: solid #012840 2px;
+  display: inline-block;
+  clear: left;
+  position: absolute;
+  top: 25px;
+  left: 310px;
+}
+
+.SQRT1 {
+  font-size: 50px;
+  color: #012840;
+  position: absolute;
+  left: 283px;
+  top: 25px;
+}
+.DUSHKI{
+  position: absolute;
+  width: 400px;
+  font-size: 90px;
+  top:-35px;
+  left:250px;
+  font-style: normal;
+}
+.ZFF{
+  position: absolute;
+  font-size: 30px;
+  top: -25px;
+  left: 420px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.bottom6 {
+  display: inline-block;
+  clear: left;
+  position: absolute;
+  top: 23px;
+  left: 200px;
+}
+.top6{
+  border-bottom: solid #012840 2px;
+  display: inline-block;
+  position: absolute;
+  top: -37px;
+  left: 100px;
+}
+.top7{
+
+  display: inline-block;
+  position: absolute;
+  top: -37px;
+  left: 100px;
+}
+.SQRT2 {
+  font-size: 50px;
+  color: #012840;
+  position: absolute;
+  left: 54px;
+  top: 10px;
+  
+}
+.SQRT3 {
+  font-size: 50px;
+  color: #012840;
+  position: absolute;
+  left: -30px;
+}
+.lineforsqrt{
+  color: #012840;
+  position: absolute;
+  left: 180px;
+  top: -72px;
+}
+.lineforsqrt2{
+  color: #012840;
+  position: absolute;
+  left: 195px;
+  top: -22px;
+}
